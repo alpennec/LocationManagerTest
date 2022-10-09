@@ -83,6 +83,10 @@ class LocationDataManager: NSObject, ObservableObject, CLLocationManagerDelegate
         didUpdateLocations locations: [CLLocation]
     ) {
         if let last = locations.last {
+            if allLocations.count == 20 {
+                allLocations.removeLast()
+            }
+            
             allLocations.insert(last, at: 0)
         }
     }

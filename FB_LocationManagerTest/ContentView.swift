@@ -36,7 +36,11 @@ struct ContentView: View {
                     .tint(.accentColor)
                 
                 Stepper(value: $locationDataManager.distanceFilter, in: -1...100, step: 1) {
-                    LabeledContent("Distance Filter", value: locationDataManager.distanceFilter.formatted())
+                    HStack {
+                        Text("Distance Filter")
+                        Spacer()
+                        Text(locationDataManager.distanceFilter.formatted())
+                    } // HStack
                 } // Stepper
             } // Section
             .disabled(locationDataManager.isUpdating)

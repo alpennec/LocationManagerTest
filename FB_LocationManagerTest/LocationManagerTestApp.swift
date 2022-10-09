@@ -11,7 +11,9 @@ import SwiftUI
 struct LocationManagerTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            NavigationView {
+                ContentView()
+            } // NavigationView
+        } // WindowGroup
     }
 }

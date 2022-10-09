@@ -9,17 +9,15 @@
 /* Begin PBXBuildFile section */
 		777F438928F2B0270001E544 /* LocationManagerTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F438828F2B0270001E544 /* LocationManagerTestApp.swift */; };
 		777F438D28F2B0290001E544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777F438C28F2B0290001E544 /* Assets.xcassets */; };
-		777F439028F2B0290001E544 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777F438F28F2B0290001E544 /* Preview Assets.xcassets */; };
 		777F439828F2B0E70001E544 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F439728F2B0E70001E544 /* ContentView.swift */; };
 		777F43BE28F322BB0001E544 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F43BD28F322BB0001E544 /* LocationDataManager.swift */; };
 		777F43C028F322D10001E544 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F43BF28F322D10001E544 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		777F438528F2B0270001E544 /* LocationManagerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationManagerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777F438528F2B0270001E544 /* FB_LocationManagerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FB_LocationManagerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		777F438828F2B0270001E544 /* LocationManagerTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerTestApp.swift; sourceTree = "<group>"; };
 		777F438C28F2B0290001E544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		777F438F28F2B0290001E544 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		777F439628F2B0370001E544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		777F439728F2B0E70001E544 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		777F43BD28F322BB0001E544 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
@@ -40,7 +38,7 @@
 		777F437C28F2B0270001E544 = {
 			isa = PBXGroup;
 			children = (
-				777F438728F2B0270001E544 /* LocationManagerTest */,
+				777F438728F2B0270001E544 /* FB_LocationManagerTest */,
 				777F438628F2B0270001E544 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +46,12 @@
 		777F438628F2B0270001E544 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				777F438528F2B0270001E544 /* LocationManagerTest.app */,
+				777F438528F2B0270001E544 /* FB_LocationManagerTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		777F438728F2B0270001E544 /* LocationManagerTest */ = {
+		777F438728F2B0270001E544 /* FB_LocationManagerTest */ = {
 			isa = PBXGroup;
 			children = (
 				777F439628F2B0370001E544 /* Info.plist */,
@@ -62,25 +60,16 @@
 				777F43BF28F322D10001E544 /* LocationView.swift */,
 				777F43BD28F322BB0001E544 /* LocationDataManager.swift */,
 				777F438C28F2B0290001E544 /* Assets.xcassets */,
-				777F438E28F2B0290001E544 /* Preview Content */,
 			);
-			path = LocationManagerTest;
-			sourceTree = "<group>";
-		};
-		777F438E28F2B0290001E544 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				777F438F28F2B0290001E544 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = FB_LocationManagerTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		777F438428F2B0270001E544 /* LocationManagerTest */ = {
+		777F438428F2B0270001E544 /* FB_LocationManagerTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 777F439328F2B0290001E544 /* Build configuration list for PBXNativeTarget "LocationManagerTest" */;
+			buildConfigurationList = 777F439328F2B0290001E544 /* Build configuration list for PBXNativeTarget "FB_LocationManagerTest" */;
 			buildPhases = (
 				777F438128F2B0270001E544 /* Sources */,
 				777F438228F2B0270001E544 /* Frameworks */,
@@ -90,11 +79,11 @@
 			);
 			dependencies = (
 			);
-			name = LocationManagerTest;
+			name = FB_LocationManagerTest;
 			packageProductDependencies = (
 			);
 			productName = LocationManagerTest;
-			productReference = 777F438528F2B0270001E544 /* LocationManagerTest.app */;
+			productReference = 777F438528F2B0270001E544 /* FB_LocationManagerTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 777F438028F2B0270001E544 /* Build configuration list for PBXProject "LocationManagerTest" */;
+			buildConfigurationList = 777F438028F2B0270001E544 /* Build configuration list for PBXProject "FB_LocationManagerTest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				777F438428F2B0270001E544 /* LocationManagerTest */,
+				777F438428F2B0270001E544 /* FB_LocationManagerTest */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777F439028F2B0290001E544 /* Preview Assets.xcassets in Resources */,
 				777F438D28F2B0290001E544 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,17 +269,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"LocationManagerTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 755842EYAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LocationManagerTest/Info.plist;
+				INFOPLIST_FILE = FB_LocationManagerTest/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Privacy - Location When In Use Usage Description";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,17 +300,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LocationManagerTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 755842EYAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LocationManagerTest/Info.plist;
+				INFOPLIST_FILE = FB_LocationManagerTest/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Privacy - Location When In Use Usage Description";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		777F438028F2B0270001E544 /* Build configuration list for PBXProject "LocationManagerTest" */ = {
+		777F438028F2B0270001E544 /* Build configuration list for PBXProject "FB_LocationManagerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				777F439128F2B0290001E544 /* Debug */,
@@ -348,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		777F439328F2B0290001E544 /* Build configuration list for PBXNativeTarget "LocationManagerTest" */ = {
+		777F439328F2B0290001E544 /* Build configuration list for PBXNativeTarget "FB_LocationManagerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				777F439428F2B0290001E544 /* Debug */,
